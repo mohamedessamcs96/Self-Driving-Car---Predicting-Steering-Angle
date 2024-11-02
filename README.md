@@ -37,7 +37,7 @@ The dataset consists of images and telemetry data such as steering angles from a
 - Input image: Captures the forward-facing view from the car
 - Telemetry: Recorded steering angle associated with each image
 
-You can find or generate similar datasets through open-source simulators or real-world driving logs.
+Dataset link : https://www.kaggle.com/datasets/andy8744/udacity-self-driving-car-behavioural-cloning/data.
 
 ## Model Architecture
 
@@ -60,26 +60,6 @@ This project implements a Convolutional Neural Network (CNN) inspired by Nvidia'
 
    ```bash
    pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. **Data Preprocessing**: Preprocess the images and steering angle data for model training. Run the preprocessing script:
-
-   ```bash
-   python preprocess.py --data_path <path_to_your_data>
-   ```
-
-2. **Training the Model**: Train the CNN model on your dataset:
-
-   ```bash
-   python train.py --epochs <num_epochs> --batch_size <batch_size>
-   ```
-
-3. **Model Inference**: Use the trained model to predict steering angles for a new set of images:
-
-   ```bash
-   python predict.py --model <path_to_trained_model> --input <path_to_test_images>
    ```
 
 ## Results
