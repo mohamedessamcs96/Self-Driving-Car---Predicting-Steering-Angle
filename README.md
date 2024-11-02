@@ -1,5 +1,7 @@
 # Self-Driving Car - Behavior Cloning Training for Predicting Steering Angle Using Deep Learning and Data Augmentation
 
+![Prediction Example](steering.gif)
+
 A machine learning project to predict steering angles for a self-driving car based on input images and driving telemetry. This project uses a deep learning model to interpret driving behavior, specifically focusing on real-time steering angle prediction.
 
 ## Table of Contents
