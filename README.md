@@ -1,12 +1,5 @@
 # Self-Driving Car - Behavior Cloning Training for Predicting Steering Angle Using Deep Learning and Data Augmentation
 
-
-To create a great README for your GitHub project, I'll outline a structured template for a machine learning project on predicting steering angles for a self-driving car. This template will cover essential sections such as an overview, installation, usage, and more. Here’s a suggested README structure:
-
----
-
-# Self-Driving Car - Predicting Steering Angle
-
 A machine learning project to predict steering angles for a self-driving car based on input images and driving telemetry. This project uses a deep learning model to interpret driving behavior, specifically focusing on real-time steering angle prediction.
 
 ## Table of Contents
