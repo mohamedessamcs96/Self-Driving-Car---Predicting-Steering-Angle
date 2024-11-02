@@ -9,7 +9,6 @@ A machine learning project to predict steering angles for a self-driving car bas
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
