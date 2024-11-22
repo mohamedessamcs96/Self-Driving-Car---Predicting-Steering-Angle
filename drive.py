@@ -73,4 +73,4 @@ if __name__ == '__main__':
     # Recompile the model to ensure it's properly configured
     model.compile(optimizer='adam', loss='mse', metrics=['mae'])
     app = socketio.Middleware(sio, app)
-    eventlet.wsgi.server(eventlet.listen(('127.0.0.1', 4567)), app)
+    eventlet.wsgi.server(eventlet.listen(('localhost', 4567)), app)
